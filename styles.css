@@ -8,24 +8,152 @@
     4. Areas
         4.1 Header
         4.2 Introduction
-        etc.
-    5. Media Queries
+        4.3 project
+        4.4 services
+        4.5 contactform and footer
+ */
+        /*5. Media Queries*/
 ////////////////////////*/
 
 /* ------------------------------- 1. Global Styles -------------------------------- */
-
+@
+body {
+    import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&display=swap');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* ------------------------------- 2. Typography ----------------------------------- */
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Merriweather','Times New Roman', serif  ;
+}
+ body {
+    font-family: 'Roboto','Verdana', sans-serif;
+}
 /* ------------------------------- 3. Layout --------------------------------------- */
 
 /* --------------- 3.1 Reusables ----------------------- */
-
+{
+    Paars #5722CD;
+    Blauw #4845E4;
+    Roze #ED4385 ;
+    Zwart #0C0C0C(voor standaard tekst);
+    Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services")Uitzonderingen
+Lichtgrijs#F3F6F9;( voor de achtergrond van de projecten)
+Grijs #7A7A7A;( voor de service-tegel tekst);
+}
 /* --------------- 3.2 Other --------------------------- */
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
 
 /* --------------- 4.1 Header ------------------------- */
+.list {
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+    background-color: #4845E4;
+    color: white;
+    font-size: 13px;
+    border: solid black 10px;
+}
+.out-list {
+    background-color: #4845E4;
+    padding-right: 50px;
+    border: dotted greenyellow 20px;
 
+
+}
+.titel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4845E4;
+    color: white;
+    border: solid palegreen 10px;
+    padding: 40px;
+    flex-basis: 1000px;
+}
+.inner-titel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+    flex-basis: 200px;
+    border: solid red;
+    margin: 0 10px 0 10px;
+
+}
+.favorite-styled {
+    background-color: #ED4385;
+    color: white;
+    border: solid black 10px;
+    line-height: 2.5;
+    padding: 6px;
+    margin: 3px;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Roboto','Verdana', sans-serif;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+    width: 10px;
+    color: #4845E4;
+    border:solid #0C0C0C 10px;
+}
 /* --------------- 4.2 Introduction ------------------- */
+.out-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: orange dashed 8px;
+    flex-basis: 1000px;
+}
+
+.inner-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5722CD;
+    border: solid #0C0C0C;
+    flex-basis: 750px;
+    font-size: 15px;
+    text-align: center;
+    padding: 50px 0 ;
+    gap: 20px;
+    margin: 50px 0;
+    position: relative
+}
+.q-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #0C0C0C;
+    font-size: 13px;
+    position:absolute;
+    bottom: 0;
+    left:calc(50% - 150px);
+
+}
+/*----------------- 4.3 project --------------- */
+
+/*---------------------4.4 services---------------*/
+
+/*-------4.5 contactform and footer---------------*/
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
