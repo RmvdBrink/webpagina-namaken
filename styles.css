@@ -558,23 +558,49 @@ h1 {
     margin: 50px;
     gap: 1em;
   }
-}
 
+  .article-1 {
+    flex-direction: column-reverse;
+    margin: 0;
 
-@media screen and (max-width: 576px) {
-  #case {
-    font-size: 10px;
-    margin: 50px;
-    gap: 1em;
-    display: flex;
-    flex-direction: column;
+  }
+
+  .article-2 {
+    flex-direction: column-reverse;
+    margin: 0;
+
+  }
+
+  .article-3 {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .image-wrapper {
+    flex-basis: auto;
+
+  }
+
+  .article-box-1 {
+    flex-basis: auto;
+    padding: 0;
+  }
+
+  .article-box-2 {
+    flex-basis: auto;
+    padding: 0 40px;
+    margin: 0;
     justify-content: center;
     align-items: center;
-    width: 550px;
+    gap: 30px;
+    text-align: left;
   }
-}
 
-@media screen and (max-width: 576px) {
+  .article-box-3 {
+    flex-basis: auto;
+    padding: 0 0 100px 0;
+    gap: 40px;
+  }
   .form-box {
     font-size: 10px;
     display: flex;
@@ -583,9 +609,6 @@ h1 {
     align-items: center;
     flex-basis: 250px;
   }
-}
-
-@media screen and (max-width: 576px) {
   .button-styled {
     font-size: 10px;
     display: flex;
@@ -594,9 +617,6 @@ h1 {
     align-items: center;
     flex-basis: 50px;
   }
-}
-
-@media screen and (max-width: 576px) {
   .bg-text-3 {
     font-size: 50px;
     display: flex;
@@ -605,9 +625,6 @@ h1 {
     align-items: center;
     flex-basis: 150px;
   }
-}
-
-@media screen and (max-width: 576px) {
   .bg-text-2 {
     font-size: 150px;
     display: flex;
@@ -616,9 +633,6 @@ h1 {
     align-items: center;
     flex-basis: 150px;
   }
-}
-
-@media screen and (max-width: 576px) {
   .bg-text-1 {
     font-size: 150px;
     display: flex;
@@ -627,28 +641,10 @@ h1 {
     align-items: center;
     flex-basis: 150px;
   }
-}
-
-@media screen and (max-width: 576px) {
-  .article-box-2 {
-    padding: 250px 0;
-  }
-}
-
-@media screen and (max-width: 576px) {
   h1 {
     font-size: 28px;
     text-align: center;
   }
-}
-
-@media screen and (max-width: 576px) {
-  #contact {
-    font-size: 46px;
-  }
-}
-
-@media screen and (max-width: 576px) {
   .button-styled {
     background-color: var(--button-coller);
     color: white;
@@ -667,5 +663,9 @@ h1 {
     text-transform: uppercase;
     border: none;
   }
+  #contact {
+    font-size: 46px;
+  }
 }
+
 
